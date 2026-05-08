@@ -60,7 +60,7 @@ const App = () => {
         <div className='flex flex-wrap items-start justify-start gap-5 mt- overflow-auto h-[90%]'>
           {task.map(function(elem,idx){
 
-            return <div key={idx} className=" flex justify-between flex-col items-start relative h-52 w-40 bg-cover rounded-xl text-black pt-9 pb-4 px-4 bg-[url('https://static.vecteezy.com/system/resources/previews/037/152/677/non_2x/sticky-note-paper-background-free-png.png')]">
+            return <div key={idx} className=" flex justify-between flex-col break-all items-start relative h-52 w-40 bg-cover rounded-xl text-black pt-9 pb-4 px-4 bg-[url('https://static.vecteezy.com/system/resources/previews/037/152/677/non_2x/sticky-note-paper-background-free-png.png')]">
               <div>
                 <h1 className='leading-tight font-bold text-lg'>{tasks[idx].title}</h1>
                 <p className='mt-2 leading-tight text-xs font-semibold text-gray-500'>{tasks[idx].description}</p>
