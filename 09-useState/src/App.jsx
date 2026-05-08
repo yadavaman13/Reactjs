@@ -40,8 +40,9 @@ const App = () => {
       {/**Counter */}
       <div className='container'>
         <input 
-        onChange={function(elem){
-          intialCount(elem.target.value);
+        value={intialCount}
+        onChange={function(e){
+          setInitialCount(e.target.value);
         }}
         type='text' placeholder='Enter the number to start counter'></input>
 
