@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue';
+    color: #fff;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #111;
+}
+
+button{
+  color: #111;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.container{
+  background-color: gray;
+  height: 300px;
+  width: 500px;
+  margin: 50px;
+  padding: 10px;
+}
+
+.container h1{
+  background-color: #fff;
+  width: fit-content;
+  font-size: 100px;
+  padding: 10px 100px;
+  margin: 10px;
+  color: #111;
+  display: flex;
+  justify-content: center;
+}
